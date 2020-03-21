@@ -1,0 +1,56 @@
+$blue: #1c4b81;
+$red: #eb0427;
+$aqua: #00556a;
+$green: #5fc28e;
+$black: #4f4f4f;
+
+.card {
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  padding: 10% 5%;
+  text-align: center;
+  width: 100%;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.55em;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  p:first-of-type {
+    font-size: 2.5em;
+    margin: 1rem 0;
+  }
+}
+
+.blue {
+  background: $blue;
+}
+
+.red {
+  background: $red;
+}
+
+.aqua {
+  background: $aqua;
+}
+
+.green {
+  background: $green;
+}
+
+.black {
+  background: $black;
+}
+
+.inner {
+
+}
