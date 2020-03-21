@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 
 import Grid from '../components/composition/Grid';
 import Card from '../components/canvas/Card';
@@ -32,6 +33,9 @@ import Img from '../components/content/Img';
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Abi's Remote Birthday</title>
+      </Head>
       <Grid>
         <Grid.Item>
           <Img src="/abi-birthday.png" alt="Abi's last birthday" />
