@@ -1,6 +1,8 @@
 const withOffline = require('next-offline');
 
 module.exports = withOffline({
+  target: 'serverless',
+  transformManifest: manifest => ['/'].concat(manifest),
   compress: true,
   workboxOpts: {
     swDest: 'static/service-worker.js',
